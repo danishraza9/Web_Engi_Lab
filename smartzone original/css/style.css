@@ -1,0 +1,20 @@
+
+/* style.css - SmartZone simple styles */
+:root{
+  --primary: #0d6efd;
+  --muted:#6c757d;
+}
+body{font-family: Arial, Helvetica, sans-serif; margin:0; padding-top:70px;}
+.navbar-brand{font-weight:700}
+.card-img-top{height:220px; object-fit:cover;}
+.product-title{font-size:1rem; font-weight:600;}
+.price-current{font-weight:700; color:var(--primary);}
+.price-old{color:var(--muted); text-decoration:line-through; margin-left:8px;}
+.badge-rating{background:#ffc107; color:#000;}
+.footer{background:#f8f9fa; padding:30px 0; margin-top:30px;}
+.sticky-cart{position:fixed; right:18px; bottom:18px; z-index:999;}
+.qty-input{width:70px;}
+/* responsive adjustments */
+@media (max-width:576px){
+  .card-img-top{height:180px;}
+}
